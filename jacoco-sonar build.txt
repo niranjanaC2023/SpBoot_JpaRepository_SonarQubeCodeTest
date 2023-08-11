@@ -1,0 +1,5 @@
+1.Right click project->Run as maven build->then paste this command in goal then apply,run then refresh the project
+clean org.jacoco:jacoco-maven-plugin:prepare-agent install
+
+2.Right click project->Run as maven build->then paste this command in goal,then apply,run then refresh the project
+sonar:sonar -Dsonar.login=squ_f04d94994e261054f5b1f4f6e49410b867f6796c
